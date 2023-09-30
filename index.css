@@ -8,7 +8,7 @@ body,html{
 header{
    
     padding:10px 0 10px 0;
-   
+    background-color:green;
     text-align:center;
     color:white;
 }
