@@ -18,24 +18,21 @@ footer{
     text-align:center;
     color:white;
 }
-.footer{
-    align-items:flex-end;
-    
-}
 .bigbox {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction:row;
 }
-
 .left_coulmn {
     padding: 20px 30px 20px 30px;
     background-color: red;
+    align-items:stretch;
 }
-.text_coulmn{
-    max-width:600px;
-    padding:30px;
-}
+.text_coulmn {
+    max-width: 600px;
+    padding: 30px;
+}  
 p::selection{
     background-color:green;
     color:white;
